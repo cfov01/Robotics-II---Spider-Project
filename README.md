@@ -4,4 +4,9 @@ Project dedicated to the robotics 2 course, part of the BRUFACE program VUB-ULB,
 # Divers informations
 Collisions objects were placed only at the tip of the extremities of the spider and it's body.
 
-# Codes to run
+# Commandes to run
+#in prompt 1, to start gazebo, the simulation enviroment: 
+cd ~/catkin_ws
+source devel/setup.bash
+roslaunch simulation_gazebo main.launch
+
